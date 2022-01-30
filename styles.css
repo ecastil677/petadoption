@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
 .a{
-  font-size: 10px;
+  font-size: 16px;
   padding: 20px;
   margin: 20px;
 }
@@ -34,6 +35,44 @@ h9{
   position: center;
 }
 
+/*PET STORES IMAGES*/
+
+ #pet-stores{
+    width: 200px;
+    height: 150px;
+        display: flex;
+        align-items: left;
+        justify-content: left
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+ }
+
+
+
+
+/*MAP*/
+#googleMap{
+    width:100%;
+    height:350px;
+    margin: 5%;
+}
+/*Prerequisite box*/
+
+
+.col-sm-4{
+    margin-bottom: 25px;
+    width: 700px;
+    border: 2px;
+    padding: 10px;
+    border-radius: 10px 10px;
+
+    background-color: #EBF6FF; 
+}
+
+
+
+
 /*lostpets gallery*/
 
 /* Three columns side by side */
@@ -47,6 +86,7 @@ h9{
 /* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 500px) {
   .column {
+
     width: 100%;
     display: block;
     height: 100%;
@@ -59,7 +99,8 @@ h9{
 
 /* Some left and right padding inside the container */
 .container {
-  padding: 0 16px;
+
+
 }
 
 /* Clear floats */
@@ -127,7 +168,7 @@ h9{
     border-radius: 10px 10px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #dfe1e6;
+    background-color: #E5E4E2;
 }
 
 .form-control {
@@ -145,6 +186,16 @@ h9{
     padding: 50px 0;
     color: #f0f9ff;
     background-color: #282d32;
+}
+
+.footer-dark_center {
+    padding-left: 10px;
+    color: #f0f9ff;
+    background-color: #282d32;
+    margin-bottom: auto;
+    margin-left: center;
+    margin-right: center;
+
 }
 
     .footer-dark h3 {
